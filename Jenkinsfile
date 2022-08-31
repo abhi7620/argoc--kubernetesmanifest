@@ -28,6 +28,6 @@ node {
 }
 stage('Create Application') {      
 
-         sh 'kubectl apply -f application.yml'
+         sh 'kubectl apply -f argoc-kubernetesmanifest/application.yml'
     }
 }
