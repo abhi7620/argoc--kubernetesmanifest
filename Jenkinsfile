@@ -26,4 +26,8 @@ node {
     }
   }
 }
+stage('Create Application') {      
+
+         sh 'kubectl apply -f application.yml'
+    }
 }
